@@ -1,0 +1,205 @@
+doctype 5
+html
+  head
+    link[rel="stylesheet"][href="css/bootstrap.min.css"]
+    link[rel="stylesheet"][href="css/resume.css"]
+  body
+    div.container
+      h1 kelly dunn
+      small curious engineer, quirky artist
+      small.pull-right  kelly-dunn.me | defaultstring@gmail.com | 206.293.7555
+      hr
+
+      div.row-fluid
+        div.span2
+          h4 Professional Objective
+        div.span10
+          p To create devices and applications that enable humans to do amazing things.
+      hr
+
+      div.row-fluid
+        div.span2
+          h4 Experience
+        div.span10
+          h4 Sifteo 
+          h5 Software Engineer 
+            small December 2011 - July 2013
+          p Designed, developed, and maintained all web services for Sifteo Inc. Including:
+          ul 
+            li A publishing service to update, distribute, and report the sales of dozens of Sifteo games.
+            li A portal to provide historical Sifteo SDK versions for hundreds of developers.
+            li A service to collect and query quality assurance data on hundreds of thousands of Sifteo products created at Sifteo's manufacturing center in China.
+            li An api service that enabled thousands of users to purchase and download games through Sifteo's desktop software, Sifteo Sync.
+
+          p Lead measures to improve web development, such as cultivating portable virtualized environments, automating deployments, and providing continuous integration for multiple web services.
+          p Quickly iterated on distributed system design to facilitate the development of Sifteo Sync. 
+          p Created modern, rich-media experiences on contstrained machines with QT webkit and HTML5 technologies.
+          p Engaged in extra-cirricular exploration projects, such as developing OSC client implementations that enabled Sifteo Cubes to communicate with Digitial Audio Workstations and other OSC enabled devices.
+          hr
+
+          h4 Kelly Dunn LLC
+          h5 Freelance Software Engineer
+             small October 2011 - Present
+          p Freelance Web Development and Software Engineering primarily within the domain of creating audio-visual utilities and web services that enabled musicians to distribute their music across the web. Some experimental work with control interfaces, specifically with MIDI controllers.
+          hr
+
+          h4 Originate
+          h5 Software Engineer
+             small June 2010 - October 2011
+          p Built and maintained various web-based projects ranging across various technologies and domains, including e-commerce, gaming, and mobile networks. Worked in small, intimate teams with quick turn-over rates.
+          p Responsibilities included estimating with clients, executing on desired features, and delivering a final product.
+          hr
+
+          h4 University of Washington
+          h5 Teaching Assistant
+            small August 2008 - August 2010
+          p Instructed undergraduates in the following areas of Computer Science:
+
+          ul 
+            li Syntax / Control Structures
+            li Data Structures / Runtime Analysis
+            li Object Oriented Programming
+            li Web Development
+            li MVC / Data Abstraction
+            li Databases
+
+          p I also held weekly office hours, bi-weekly courses, and graded programming assignments and tests.
+      hr
+
+      div.row-fluid
+        div.span2
+          h4 Programming Languages
+        div.span10
+          div.span3
+            strong Proficient
+            ul.unstyled 
+              li Ruby
+              li Go
+              li JavaScript
+              li C
+              li SQL
+
+          div.span3
+            strong Knowledgeable
+            ul.unstyled 
+              li C++
+              li Java
+              li Clojure
+              li C#
+              li Python
+
+          div.span3
+            strong Exposure
+            ul.unstyled
+              li Lush / CommonLisp
+              li Lua / Moonscript
+              li Erlang
+      hr
+
+      div.row-fluid
+        div.span2
+          h4 Protocols
+        div.span10
+          div.span3
+            strong Proficient
+            ul.unstyled 
+              li HTTP / HTTP2.0
+              li SSL / TLS
+              li MIDI
+              li OSC
+
+          div.span3
+            strong Knowledgeable
+            ul.unstyled 
+              li USB
+              li TCP / UDP
+              li RTP / RTCP
+              li RTSP
+              li DLNA
+
+          div.span3
+            strong Exposure
+            ul.unstyled
+              li SPI
+              li SPDY
+              li DMX / RDMX
+      hr
+           
+      div.row-fluid
+        div.span2 
+          h4 Tools and utilities
+        div.span10
+          div.span3
+            strong Proficient
+            ul.unstyled
+              li Emacs
+              li Git
+              li Linux (Arch / Debian)
+              li Vagrant / Ansible / Chef
+              li PostgreSQL / MySQL
+              li Nginx 
+              li Jenkins
+
+          div.span3
+            strong Knowledgeable
+            ul.unstyled
+              li Apache
+              li Redis 
+              li Selenium
+              li gdb
+
+          div.span3
+            strong Exposure
+            ul.unstyled
+              li Monit
+              li LLVM
+      hr
+
+      div.row-fluid
+        div.span2 
+          h4 Notable Projects
+        div.span10
+          h5 go-art
+            small (https://github.com/kellydunn/go-art) - an implementation of Adaptive Radix Trees (ART) in golang.
+          br
+          h5 mumble
+            small (https://github.com/kellydunn/mumble) - a MIDI multiplexer for monomes.
+      hr
+
+      div.row-fluid
+        div.span2 
+          h4 Education
+        div.span10
+          h4 University of Washington
+          h5 Bachelor of Arts in Japanese Linguistics
+            small September 2006 - June 2010
+          p
+      hr
+
+      div.row-fluid
+        div.span2 
+          h4 Volunteer Work
+        div.span10
+          h4 Railsbridge
+          h5 Volunteer Instructor and Organizer
+            small October 2010 - November 2011
+          p
+          p Instructed and organized weekend workshops that enabled participants to create web applications using the Ruby on Rails framework.  Events were held in the spirit of advocating and enabling gender diversity in technology.
+      hr
+
+      div.row-fluid
+        div.span2 
+          h4 Personal
+        div.span10
+          div.span3
+            ul.unstyled
+              li Musician
+              li Homebrewer
+              li Rock Climber
+              li Painter
+              li Open Source Contributor
+
+      hr
+
+      br
+      br
