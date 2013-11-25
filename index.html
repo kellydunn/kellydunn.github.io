@@ -1,40 +1,64 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <!--<link rel="stylesheet" href="css/common.css" />-->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!--<link rel="stylesheet" href="css/bootstrap-override.css" />-->
-    <script src="js/modernizr.js"></script>
-    <!--<script src="js/require.js" data-main="js/main"></script>-->
+    <title>kellydunn</title>
+    <style>canvas { width: 100%; height: 100%;} body { margin: 0px;}</style>
   </head>
   <body>
-    <!--<div id="bg">
-      <img src="img/peaks-compressed.jpg" />
-    </div>-->
-    <div id="main" class="container">
-      <img src="https://en.gravatar.com/userimage/14207441/52b2c5c798127a22d1019c976687a0c2.jpg?size=200" alt="me" class="img-circle"/>
-      <p class="center white">hello, my name is kelly dunn </p>
-      <p class="center white">
-	I write a lot of 
-	<a href="http://github.com/kellydunn" target="_blank">code.</a>
-      </p>
-      <p class="center white">
-	I also make a lot of
-	<a href="http://soundcloud.com/kellydunn" target="_blank">music.</a>
-      </p>
-      <p class="center white">
-	I also like to 
-	<a href="http://make-kelly-dunn.tumblr.com" target="_blank">make</a>
-	<span>stuff.</span>
-      </p>
-      <br />
-      <p class="center white">
-	I have a resume that you can 
-	<a href="resume">read</a>
-	<span>or</span>
-	<a href="assets/resume.pdf" target="_blank">download</a>
-	<span>if that's your sort of thing.</span>
-      </p>
-    </div>
+    <script src="three.js"></script>
+    <script>
+      var camera, scene, renderer;
+      var mesh;
+
+      init();
+      animate();
+
+      function init() {
+      // init.js
+      renderer = new THREE.WebGLRenderer();
+      renderer.setClearColor(0xFFFFFF, 1);
+      renderer.setSize( window.innerWidth, window.innerHeight );
+      document.body.appendChild( renderer.domElement );
+
+      // camera
+      camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 1000 );
+      camera.position.z = 400;
+
+      scene = new THREE.Scene();
+
+      var geometry = new THREE.CubeGeometry( 200, 200, 200 );
+
+      var texture = THREE.ImageUtils.loadTexture("./me.jpg");
+      texture.anisotropy = renderer.getMaxAnisotropy();
+
+      var material = new THREE.MeshBasicMaterial( { map: texture } );
+
+      mesh = new THREE.Mesh( geometry, material );
+      scene.add( mesh );
+
+      window.addEventListener( 'resize', onWindowResize, false );
+
+      }
+      
+      function onWindowResize() {
+
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+
+      renderer.setSize( window.innerWidth, window.innerHeight );
+
+      }
+
+      function animate() {
+
+      requestAnimationFrame( animate );
+
+      mesh.rotation.x += 0.005;
+      mesh.rotation.y += 0.01;
+
+      renderer.render( scene, camera );
+
+      }
+
+    </script>
   </body>
 </html>
