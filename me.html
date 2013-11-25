@@ -14,7 +14,8 @@
 
       function init() {
       // init.js
-      renderer = new THREE.WebGLRenderer({clearColor : 0xffffff});
+      renderer = new THREE.WebGLRenderer();
+      renderer.setClearColor(0xFFFFFF, 1);
       renderer.setSize( window.innerWidth, window.innerHeight );
       document.body.appendChild( renderer.domElement );
 
