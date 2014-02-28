@@ -1,7 +1,7 @@
-import peasy.*;
+//import peasy.*;
 import traer.physics.*;
 
-PeasyCam cam;
+//PeasyCam cam;
 ParticleSystem physics = new ParticleSystem(1, 0.01 );
 float bloat = 0;
 float DEFAULT_BLOAT = 0.2;
@@ -109,9 +109,9 @@ void setup() {
   p = new Planet(width/2, height/2, 0, 25);
   pv = new PlayerView(200);
   
-  cam = new PeasyCam(this, width/2, height/2, 0, 200);
-  cam.setMinimumDistance(50);
-  cam.setMaximumDistance(500);
+  //cam = new PeasyCam(this, width/2, height/2, 0, 200);
+  //cam.setMinimumDistance(50);
+  //cam.setMaximumDistance(500);
 }
 
 void draw() {
@@ -120,9 +120,9 @@ void draw() {
   
   p.draw();
   
-  cam.beginHUD();
+  //cam.beginHUD();
   pv.draw();
-  cam.endHUD();
+  //cam.endHUD();
   
   for(int i = 0; i < blocks.size()-1; i++){
     if(blocks.get(i) != null) {
@@ -134,8 +134,8 @@ void draw() {
 
 void keyPressed() {
   if(key == ' ') {
-    float[] pos = cam.getPosition();
-    Block b = new Block(pos[0], pos[1], pos[2]);
+    //float[] pos = cam.getPosition();
+    Block b = new Block(0, 0, 0);
     physics.makeAttraction(p.particle, b.particle, 250, 0);
     blocks.add(b);
   }
