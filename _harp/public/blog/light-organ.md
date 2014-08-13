@@ -153,6 +153,8 @@ Given the nature of the situation, I had to make due with what I had, and re-cre
 
 <iframe src="//instagram.com/p/q04hRTTFjD/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
 
+<blockquote class="twitter-tweet" lang="en"><p>.<a href="https://twitter.com/kellyleland">@kellyleland</a> was so great tonight!! Encore is definitely needed at <a href="https://twitter.com/simplymeasured">@simplymeasured</a> next week. <a href="http://t.co/fDN3QUE0qU">pic.twitter.com/fDN3QUE0qU</a></p>&mdash; Paige Pauli (@paigepauli) <a href="https://twitter.com/paigepauli/statuses/492943299783573504">July 26, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
