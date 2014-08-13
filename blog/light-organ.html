@@ -1,0 +1,176 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="../css/bootstrap.min.css"><link rel="stylesheet" href="../css/bootstrap-responsive.min.css"><link rel="stylesheet" href="../css/bootstrap-override.css"><link rel="stylesheet" href="../css/blog.css"><script src="js/modernizr.js"></script><script src="js/woopra.js"></script></head><body><div class="container">
+  <h1>kelly dunn</h1>
+  <p class="center">
+    <a href="http://github.com/kellydunn" target="_blank">code</a>
+    <span>//</span>
+    <a href="http://soundcloud.com/magic-damage" target="_blank">music</a>
+    <span>//</span>
+    <a href="/blog" target="_blank">craft</a>
+  </p>
+  <p class="center">
+    resume
+    <span>(</span>
+    <a href="/resume">read</a>
+    <span>//</span>
+    <a href="/assets/resume.pdf" target="_blank">download</a>
+    <span>)</span>
+  </p>
+</div>  <div class="container"><h2>light organ</h2>
+<p> When asked to play a DJ set at my friend&#39;s house party, I thought it would be great if my set could be complimented with an interesting lighting display. 
+</p>
+
+<p> I was intrigued with the notion of splitting my mixer to the house speakers and some other network, something that could dance along with the music I was playing. 
+</p>
+
+<p> After digging up some inspiration from my friend <a href="http://misc.name">Micah</a>, and other artists, a light organ seemed perfect.
+</p>
+
+<iframe src="//instagram.com/p/qyN0VezFrn/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+<h3>what is a light organ?</h3>
+<blockquote>
+<p>A light organ is an electronic device which automatically converts an audio signal (such as music) into rhythmic light effects.</p>
+<p><em>- Wikipedia</em></p>
+</blockquote>
+<p> In this post, I&#39;ll describe my design, build process, and results of my light organ creation.  </p>
+
+<hr>
+<h3>design</h3>
+<p> The intent of this project was to create a satisfying effect that was low-cost, modular, and easy-to-make such that I could have it up-and-running for my set in only two weeks.  The unit also had to be portable and compact, as the venue was tight for space.
+</p>
+
+<p>
+After a few initial design iterations, I settled on some general dimensions 
+</p>
+
+<p>
+With the aid of my friend <a href="http://latentspark.com&quot;">John Thomson</a>, I was able to build a simple circuit that would drive my Led strips
+</p>
+
+<hr>
+<h3>materials</h3>
+<p>
+Below are all the materials you&#39;ll need to make my version of the light organ.  Keep in mind that having spares of each part is always a good idea.
+</p>
+
+<h4>light organ chasis:</h4>
+<ul>
+<li>Ikea cabinet (Avdala version, 25&quot; wide 40&quot; tall)</li>
+<li>1&quot; wide <a href="http://www.homedepot.com/p/Crown-Bolt-1-in-x-96-in-Aluminum-Angle-Bar-with-1-20-in-Thick-56760/202183474">angled aluminum</a> (48&quot; long)</li>
+<li>36&quot; x 25&quot; x 1/8&quot; clear, frosted plexiglass from Tap Plastics</li>
+<li>4 additional 9&quot; x 25&quot; masonite shelves</li>
+<li>Spare, thin wood for creating the shelf supports, 64&quot; x 1&quot; cut evenly into 8 sections.</li>
+<li>2 5m <a href="http://www.amazon.com/HitLights-Flexible-Ribbon-Adapter-included/dp/B005GL5R56">Hitlights Cool White LED strips</a></li>
+<li>12Volts+ power supply</li>
+<li>Lots of High Gauge wire (beefy enough for 12Volts+ @ 3Amps)</li>
+<li>An enclosure to hold the circuits.  A small to medium size cardboard box will do in a pinch.</li>
+</ul>
+<h4>logic board circuit:</h4>
+<ul>
+<li><a href="https://www.pjrc.com/teensy/teensy31.html">Teensy 3.1</a></li>
+<li><a href="https://www.pjrc.com/store/teensy3_audio.html">Teensy 3.1 Audio Shield</a></li>
+</ul>
+<h4>power board circuit:</h4>
+<ul>
+<li>8 <a href="http://www.digikey.com/product-detail/en/AOT2618L/785-1438-5-ND/3603378">N-Channel 60V 7A Mosfets</a></li>
+<li>8 <a href="http://www.digikey.com/product-detail/en/CF14JT100R/CF14JT100RCT-ND/1830327">100 Ohm Resistors</a></li>
+<li>1 <a href="http://www.digikey.com/product-detail/en/LM7805CT/LM7805CT-ND/458698">5V 1A Linear Power Regulator</a></li>
+</ul>
+<hr>
+<h3>tools</h3>
+<p>
+Below are all the tools I used to create my version of the light organ.  Keep in mind that these are the tools I had to my disposal, and you may wish to use other ones to complete the build.
+</p>
+
+<h4>light organ chasis:</h4>
+<ul>
+<li>Power Drill with phillips head bit, a 1/4&quot; drill bit, and a counter sink bit.</li>
+<li>16 Wood screws</li>
+<li>6 Flat-top screws</li>
+<li>Hammer</li>
+<li>Hacksaw</li>
+</ul>
+<h4>logic and power board circuits:</h4>
+<ul>
+<li>Soldering Iron</li>
+<li>Solder</li>
+<li>Jumper Wire</li>
+</ul>
+<hr>
+<h3>process</h3>
+<p>
+While waiting for my components to arrive in the mail, I got to work on constructing the Chasis.
+</p>
+
+<p>
+The first step was to build the Ikea cabinet skeleton.  The steps to do so are fairly straight forward, but just in case you don&#39;t have them, there&#39;s a <a href="https://www.youtube.com/watch?v=J9QRqpZBXCo">Youtube guide</a> on how to build a similar Ikea case.
+</p>
+
+<p>
+Once the chasis was constructed, I took the 64&quot; x 1&quot; pole of spare wood and cut it into 8 inch segments.  These would later be screwed into the inside of the chasis, vertically spaced 4.5&quot; apart from each other so that they could provide support for the shelves.
+</p>
+
+<iframe src="//instagram.com/p/rYsApwzFs3/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+<p>
+At this point, I tested that each shelf was level by placing my masonite boards on the shelving and made sure everything looked decent.
+</p>
+
+<p>
+Next, I took a hacksaw and cut my aluminum guard rails into three sections of 24&quot; lengths and screwed them to the bottom, left, and right sides of the chasis.  These pieces of angled aluminum would hold the plexiglass in place after sliding it in from the top.  I decided to countersink all my holes through the aluminum here so that the screws wouldn&#39;t gouge anyone&#39;s hands when transferring it, and that it would look aestheically pleasant.
+</p>
+
+<p>
+After the body was constructed, I cut two rolls of my LED strips into sections of 12 3-LED segments.  This was roughly 23&quot; in length, which fit perfectly across the width of the cabinet.<br></p>
+
+<p>
+Once the LED strips were in place, I drilled holes in the top right side of each section of the cabinet, which would service as escape holes for the power and ground lines of each daisy-chained LED channel.
+</p>
+
+<p>
+It was at this point that I constructed my Logic and Power circuits and hooked them up to the rest of the unit.  If you want to learn more about the design of these circuits, you can reference the upverter schematics here.
+</p>
+
+<iframe src="//instagram.com/p/qs6ucJzFkm/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+<hr>
+<h3>notes</h3>
+<p>
+It should be mentioned that the complete circuit was not able to be constructed on a single, standard-sized protoboard.  I had to bridge both of the protoboards with jumper cables, which was cumbersome, and eventually resulted in an expensive mistake; some of the data wires became dislodged while testing, which shorted out the initial Teensy Audio Shield.
+</p>
+
+<p>Luckily, <a href="http://pjrc.com/">PJRC</a> has a overnight shipping option which I gladly made quick use of :)</p>
+<p>
+In the future, it might be much easier to either fabricate the circuit on a larger protoboard or attempt to make a PCB.
+</p>
+
+<p>
+Given the nature of the situation, I had to make due with what I had, and re-created the logic circuit on a breadboard, which I taped to the bottom of my enclosure box.
+</p>
+
+<iframe src="//instagram.com/p/q7VbTKzFg4/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+<hr>
+<h3>results</h3>
+<iframe src="//instagram.com/p/q04hRTTFjD/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+
+<hr>
+<h3>conclusions</h3>
+<p>
+I was really satisfied with the outcome of this project, and I would love to improve it in the future.  Perhaps even making a PCB is in the cards given the amount of feedback I received.
+</p>
+
+<hr>
+<h3>links</h3>
+<ul>
+<li>Light Organ Firmware (soon!)</li>
+<li>Light Organ Power Circuit (soon!)</li>
+<li>Light Organ Logic Circuit (soon!)</li>
+</ul>
+<hr>
+<h3>related work</h3>
+<ul>
+<li>The awesome <a href="https://github.com/PaulStoffregen/Audio">PRJC Audio Library</a>, which contains a lot of helpful examples, especially the FFT examples </li>
+</ul>
+</div></body></html>
