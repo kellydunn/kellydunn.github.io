@@ -169,8 +169,7 @@ I was really satisfied with the outcome of this project, and I would love to imp
 ###links
 
 - Light Organ Firmware (soon!)
-- Light Organ Power Circuit (soon!)
-- Light Organ Logic Circuit (soon!)
+- [Light Organ Power and Logic Circuit](https://upverter.com/kellydunn/0ff3d0f762a5f479/light-organ/)
 
 ----
 
