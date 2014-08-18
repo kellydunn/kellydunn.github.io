@@ -27,11 +27,11 @@
 </p>
 
 <p>
-After a few initial design iterations, I settled on some general dimensions 
+After a few initial design iterations, I settled on creating a single, solid, cube structure roughly 3'x3'x9" in dimensions.  The intention was that the inside of the cube would then be divided into multiple "shelves" of light that could be driven dynamically by the main line out of my mixer. 
 </p>
 
 <p>
-With the aid of my friend [John Thomson](http://latentspark.com"), I was able to build a simple circuit that would drive my Led strips
+With the aid of my friend [John Thomson](http://latentspark.com"), I was able to build a simple circuit that would drive my LED strips as intended.
 </p>
 
 ---
@@ -46,12 +46,12 @@ Below are all the materials you'll need to make my version of the light organ.  
 
 - Ikea cabinet (Avdala version, 25" wide 40" tall)
 - 1" wide [angled aluminum](http://www.homedepot.com/p/Crown-Bolt-1-in-x-96-in-Aluminum-Angle-Bar-with-1-20-in-Thick-56760/202183474) (48" long)
-- 36" x 25" x 1/8" clear, frosted plexiglass from Tap Plastics
+- 36" x 25" x 1/8" clear, frosted plexiglass.
 - 4 additional 9" x 25" masonite shelves
 - Spare, thin wood for creating the shelf supports, 64" x 1" cut evenly into 8 sections.
 - 2 5m [Hitlights Cool White LED strips](http://www.amazon.com/HitLights-Flexible-Ribbon-Adapter-included/dp/B005GL5R56)
 - 12Volts+ power supply
-- Lots of High Gauge wire (beefy enough for 12Volts+ @ 3Amps)
+- Lots of High Gauge wire (beefy enough for 12Volts+ @ 2Amps)
 - An enclosure to hold the circuits.  A small to medium size cardboard box will do in a pinch.
 
 ####logic board circuit:
@@ -122,7 +122,7 @@ Once the LED strips were in place, I drilled holes in the top right side of each
 </p>
 
 <p>
-It was at this point that I constructed my Logic and Power circuits and hooked them up to the rest of the unit.  If you want to learn more about the design of these circuits, you can reference the upverter schematics here.
+It was at this point that I constructed my Logic and Power circuits and hooked them up to the rest of the unit.  If you want to learn more about the design of these circuits, you can reference the [upverter schematics here](https://upverter.com/kellydunn/0ff3d0f762a5f479/light-organ/).
 </p>
 
 <iframe src="//instagram.com/p/qs6ucJzFkm/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
@@ -168,7 +168,7 @@ I was really satisfied with the outcome of this project, and I would love to imp
 
 ###links
 
-- Light Organ Firmware (soon!)
+- [Light Organ Firmware](https://bitbucket.org/kellydunn/light-organ-firmware)
 - [Light Organ Power and Logic Circuit](https://upverter.com/kellydunn/0ff3d0f762a5f479/light-organ/)
 
 ----
