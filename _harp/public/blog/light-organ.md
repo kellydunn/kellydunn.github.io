@@ -3,7 +3,7 @@
 <p> When asked to play a DJ set at my friend's house party, I thought it would be great if my set could be complimented with an interesting lighting display.  I was intrigued with the notion of creating something that could "dance along" with the music I was playing. 
 </p>
 
-<p> After digging up some inspiration from older discotheque lighting devices, some work from my friend [Micah](http://misc.name), and other artists, I eventually came across light organs.
+<p> After digging up some inspiration from older discotheque lighting devices and some work from my friend [Micah](http://misc.name), I eventually came across light organs, and decided to try my hand at making one.
 </p>
 
 <iframe src="//instagram.com/p/qyN0VezFrn/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
