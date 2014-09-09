@@ -1,0 +1,13 @@
+doctype
+html
+  head
+    link(rel="stylesheet", href="../css/bootstrap.min.css")
+    link(rel="stylesheet", href="../css/bootstrap-responsive.min.css")
+    link(rel="stylesheet", href="../css/bootstrap-override.css")
+    link(rel="stylesheet", href="../css/art.css")
+    script(src="/js/modernizr.js")
+    script(src="/js/woopra.js")
+  body
+    != partial("../_header.ejs")
+    div.container
+      != yield
