@@ -1,1 +1,1 @@
-my personal website [kelly-dunn.me](http://kelly-dunn.me)
+my personal site, [kelly-dunn.me](http://kelly-dunn.me)
