@@ -34,6 +34,7 @@ body {
 }
 
 #splash {
+    padding: 0px;
     height: 100%;
     color: white;
     background-image: url("../img/me2-cropped.jpg");
@@ -50,6 +51,14 @@ body {
 
 #splash-buttons a {
     font-size: 20pt;
+}
+
+#social a:hover {
+    color: #9B59B6;
+}
+
+#splash-buttons a:hover {
+    background-color: #9B59B6;
 }
 
 h1 {
@@ -78,6 +87,20 @@ h1 {
 
 .splash-section {
     height: 100%;
+}
+
+.splash-section a {
+    color: #9B59B6;
+}
+
+#projects-preview {
+    padding: 0px;
+    height: 150px;
+    background-image: url("../img/projects.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;   
 }
 
 @media (max-width: 767px) {
