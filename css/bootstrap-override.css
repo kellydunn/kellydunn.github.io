@@ -2,14 +2,6 @@ html, body {
     height: 100% 
 }
 
-body {
-    background-color: white;
-}
-
-.container {
-    background-color: white;
-}
-
 #wrap {
     min-height: 100%;
     height: auto !important;
