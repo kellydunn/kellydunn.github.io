@@ -70,6 +70,8 @@
 ## Results
 Satisfactory, but human component needs further iteration, practice, and polish.
 
+<iframe src="https://vine.co/v/hQj56Dq5LwF/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
+
 ---
 
 ## Conclusion
