@@ -1,4 +1,4 @@
-## light organ
+# light organ
 
 <p> When asked to play a DJ set at my friend's house party, I thought it would be great if my set could be complimented with an interesting lighting display.  I was intrigued with the notion of creating something that could "dance along" with the music I was playing. 
 </p>
@@ -8,7 +8,7 @@
 
 <iframe src="//instagram.com/p/qyN0VezFrn/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
 
-### what is a light organ?
+## What is a light organ?
 
 > A light organ is an electronic device which automatically converts an audio signal (such as music) into rhythmic light effects.
 >
@@ -18,7 +18,7 @@
 
 ---
 
-###design
+## Design
 
 <p> The intent of this project was to create a satisfying effect that was low-cost, modular, and easy-to-make such that I could have it up-and-running for my set in only two weeks.  The unit also had to be portable and compact, as the venue was tight for space.
 </p>
@@ -33,13 +33,13 @@ With the aid of my friend [John Thomson](http://latentspark.com"), I was able to
 
 ---
 
-###materials
+## Materials
 
 <p>
 Below are all the materials you'll need to make my version of the light organ.  Keep in mind that having spares of each part is always a good idea.
 </p>
 
-####light organ chasis:
+### Light Organ Chasis:
 
 - Ikea cabinet (Avdala version, 25" wide 40" tall)
 - 1" wide [angled aluminum](http://www.homedepot.com/p/Crown-Bolt-1-in-x-96-in-Aluminum-Angle-Bar-with-1-20-in-Thick-56760/202183474) (48" long)
@@ -51,12 +51,12 @@ Below are all the materials you'll need to make my version of the light organ.  
 - Lots of High Gauge wire (beefy enough for 12Volts+ @ 2Amps)
 - An enclosure to hold the circuits.  A small to medium size cardboard box will do in a pinch.
 
-####logic board circuit:
+### Logic Board Circuit:
 
 - [Teensy 3.1](https://www.pjrc.com/teensy/teensy31.html)
 - [Teensy 3.1 Audio Shield](https://www.pjrc.com/store/teensy3_audio.html)
 
-####power board circuit:
+### Power Board Circuit:
 
 - 8 [N-Channel 60V 7A Mosfets](http://www.digikey.com/product-detail/en/AOT2618L/785-1438-5-ND/3603378)
 - 8 [100 Ohm Resistors](http://www.digikey.com/product-detail/en/CF14JT100R/CF14JT100RCT-ND/1830327)
@@ -64,13 +64,13 @@ Below are all the materials you'll need to make my version of the light organ.  
 
 ---
 
-###tools
+## Tools
 
 <p>
 Below are all the tools I used to create my version of the light organ.  Keep in mind that these are the tools I had to my disposal, and you may wish to use other ones to complete the build.
 </p>
 
-####light organ chasis:
+### Light Organ Chasis:
 
 - Power Drill with phillips head bit, a 1/4" drill bit, and a counter sink bit.
 - 16 Wood screws
@@ -78,7 +78,7 @@ Below are all the tools I used to create my version of the light organ.  Keep in
 - Hammer
 - Hacksaw
 
-####logic and power board circuits:
+### Logic and Power Board Circuits:
 
 - Soldering Iron
 - Solder
@@ -86,7 +86,7 @@ Below are all the tools I used to create my version of the light organ.  Keep in
 
 ---
 
-###process
+## Process
 
 <p>
 While waiting for my electrical components to arrive in the mail, I got to work on constructing the Chasis.
@@ -126,7 +126,7 @@ It was at this point that I constructed my Logic and Power circuits and hooked t
 
 ---
 
-###notes
+## Notes
 
 <p>
 It should be mentioned that the complete circuit was not able to be constructed on a single, standard-sized protoboard.  I had to bridge both of the protoboards with jumper cables, which was cumbersome, and eventually resulted in an expensive mistake; some of the data wires became dislodged while testing, which shorted out the initial Teensy Audio Shield.
@@ -146,7 +146,7 @@ Given the nature of the situation, I had to make due with what I had, and re-cre
 
 ---
 
-###results
+## Results
 
 <iframe src="//instagram.com/p/q04hRTTFjD/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
 
@@ -155,7 +155,7 @@ Given the nature of the situation, I had to make due with what I had, and re-cre
 
 ---
 
-###conclusions
+## Conclusions
 
 <p>
 I was really satisfied with the outcome of this project, and I would love to improve it in the future.  Perhaps even making a PCB is in the cards given the amount of feedback I received.
@@ -163,14 +163,14 @@ I was really satisfied with the outcome of this project, and I would love to imp
 
 ---
 
-###links
+## Links
 
 - [Light Organ Firmware](https://bitbucket.org/kellydunn/light-organ-firmware)
 - [Light Organ Power and Logic Circuit](https://upverter.com/kellydunn/0ff3d0f762a5f479/light-organ/)
 
 ----
 
-###related work
+## Related work
 
 - The awesome [PRJC Audio Library](https://github.com/PaulStoffregen/Audio), which contains a lot of helpful examples, especially for FFT analysis 
 
