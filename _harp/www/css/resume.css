@@ -1,8 +1,0 @@
-@font-face {
-    font-family: "uni-0";
-    src: url("../font/uni-0.tff") format("truetype");
-}
-
-.pixel {
-    font-family: "uni-0", sans-serif;
-}
