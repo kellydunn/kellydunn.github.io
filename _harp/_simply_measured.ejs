@@ -1,14 +1,19 @@
 <h4>Simply Measured</h4>
 <h5>
-  Software Engineer
-  <small>October 2013 - Present</small>
+  Software Engineer - Data
+  <small>November 2014 - June 2015</small>  
 </h5>
-<p>Developed and designed back-end platform services, Including:</p>
 <ul>
-  <li>An Account Service that decoupled user-related business logic from the front-end app and Salesforce APIs.  The service managed over 50,000 user subscription records as well as decreased response time of the application by over 50% on average, from two seconds to less than a second.</li>
-  <li>An Event Publication Service, which enabled Simply Measured's first third-party partnership with Shift Marketing Cloud.  The service provided a generic interface for messaging across our platform, which enabled other core services to communicate in a scalable and isolated manner.</li>
+  <li>Created Map Reduce jobs that normalized billions of rows of Facebook and Youtube data.  Recalimed 40 Million Rows (~2% of our total data set) that were previously determined lost due to partner outages and legacy design implications.</li>
+  <li>Identified and fixed memory leaks in mission critical worker processes.  This enabled our larger jobs to run without issue, resolved nightly pages, and enabled us to scale down from 20 workers to 5 (75% efficiency increase).</li>
+  <li>Created tooling around our HBase that sped up data analyst schema changes from a week cycle time to 5 minutes.</li>
 </ul>
-<p>Created an internal development tool that improved the efficiency of product development by extracting and transforming data in our HBase clusters to local development formats, a process that would normally take weeks was reduced to a UNIX command line that could be executed in seconds.</p>
-<p>Profiled and monitored queue workers that were critical to our data acquisition platform.  Identified and fixed memory leaks such that worker boxes were able to stay running in perpetuity instead of thrashing after 6 hours under normal load.</p>
-<p>Migrated billions of rows of Facebook and Youtube data with the Map Reduce Framework, which increased the quality of product by sanitizing data and providing on average 2% more data visibility.</p>
-<hr />
+<h5>
+  Software Engineer - Product
+  <small>October 2013 - June 2015</small>
+</h5>
+<ul>
+  <li>Decoupled SimplyMeasured's web product from the Salesforce CRM, normalizing and providing visibility to 50,000 accounts, and decreased response time of the product by 50%, from two seconds to less than a second.</li>
+  <li>Created a Messaging Service, which enabled Simply Measured's first third-party partnership with Shift Marketing Cloud.</li>
+ </ul>
+<hr/>
