@@ -1,0 +1,23 @@
+<h4>Splice</h4>
+<h5>
+  Technical Lead - Search
+  <small>March 2019 - Present</small>  
+</h5>
+<ul>
+  <li>
+    Improved p99 Search Latencies 100x to sub 100ms responses.  Led and oversaw an initiative to migrate legacy search infrastructure to a more modern and managed alterantive.  Productionalized an experimental ML feature in ElasticSearch.
+  </li>
+</ul>
+
+<h5>
+  Senior Software Engineer
+  <small>October 2018 - March 2019</small>
+</h5>
+<ul>
+  <li>
+    Built and maintained backend web services.
+  </li>
+</ul>
+
+<strong>Technologies:</strong>Go, MySQL, ElasticSearch, AWS, GCP, Terraform, SQS, Memcache, Redis
+<hr/>
