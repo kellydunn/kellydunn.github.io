@@ -1,4 +1,4 @@
 all:
-	harp _harp .
+	harp compile _harp .
 	wkhtmltopdf resume.html assets/resume.pdf
 
